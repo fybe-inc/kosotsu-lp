@@ -1,0 +1,21 @@
+/* お問い合わせボタンのスタイル */
+.wp-block-button__link {
+  padding: 0.6rem 1.2rem !important;
+  transition: all 0.3s ease;
+  font-size: 0.9rem !important;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.wp-block-button__link:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* レスポンシブ対応 */
+@media (max-width: 781px) {
+  .wp-block-button__link {
+    padding: 0.5rem 1rem !important;
+    font-size: 0.85rem !important;
+  }
+}
